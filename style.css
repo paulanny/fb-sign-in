@@ -1,0 +1,88 @@
+
+*  { 
+    background-color: #07103a; 
+    padding:0;margin:0; 
+    box-sizing:border-box;
+}
+    .dont     {background-color:#213f77; font-size: 10pt; text-align:center; margin-top:75px; padding:15px 0 ;
+                border: 0px solid #07104a;border-radius:5px 3px;height:10px;justify-content:center;}
+button     { 
+    background-color:#f624c7;
+    font-size:20px;
+    border:0px solid pink;
+    padding:3px;
+
+}
+
+form {
+    text-align:center;
+    margin-bottom:25px;
+    padding:15px;
+    width:80vw;
+    max-width:400px;
+    display:block;
+    margin:auto;
+}
+.value  { 
+        justify-content:space-between; 
+        width:100%;
+        display:flex;
+}
+h3 {
+    background-color:#322296;
+    font-size:80%;
+    width:49.5%;
+}
+.sign                {width:200px;margin-top:20px;background-color:#fc06c5; text-align:center;color: white;border:0px solid pink;}               
+    h1    {margin-top:10px; text-align:center;}  
+    .passbox     {width:265px;border-radius:2px;background-color: #665ac2;border:0px solid pink;font-size:12pt;} 
+.person  {width:140px; background-color: #322295;color:#fc06c5; text-align:center; border:0.88px solid grey ;border-radius:3px;font-size:15px;}           
+.team    {width:140px;background-color:#322295; color:white; text-align:center; border:0px solid pink;;border-radius:3px;font-size:15px;}   
+.big       {color:white;}
+.down     {color:white; font-size:15px; border:0px solid pink;}
+.email    {border-radius:2px;background-color:#665ac2;border:0px solid pink;font-size:15px;}
+input {
+    padding:10px;
+    color:white;
+    display:block;
+    width:100% !important;
+    margin:auto;
+}
+label {
+    display:block;
+    width:100%;
+    text-align:left;
+    font-size:20px;
+    color:white;
+}
+.contain {
+    width:100%;
+    display:flex;
+    height:50px;
+    align-items:flex-end;
+    justify-content:space-between;
+}
+label:first-of-type {
+        width:100% !important;
+}
+.contain label{width:60%;}
+span {
+    width:40%;
+    font-size:15px;
+    text-align:right;
+}
+button {
+    width:100%;
+}
+.last {
+    background-color:#665ac2;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    height:70px;
+    align-items:center;
+}
+.last p{background-color:#665ac2;}
+.last button {width:100px; height:30px}
